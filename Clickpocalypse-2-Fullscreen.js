@@ -36,10 +36,10 @@
 
     function initialize() {
         var btn = document.createElement('button');
-		btn.innerHTML = 'Toggle Menus';
-		btn.setAttribute('class', 'toggleMenus');
+        btn.innerHTML = 'Toggle Menus';
+        btn.setAttribute('class', 'toggleMenus');
         btn.addEventListener('click', toggleMenus);
-		document.getElementsByClassName('mainTabContainer')[0].appendChild(btn);
+        document.getElementsByClassName('mainTabContainer')[0].appendChild(btn);
     }
 
     function toggleMenus() {
