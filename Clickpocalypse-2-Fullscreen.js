@@ -43,7 +43,6 @@
     }
 
     function toggleMenus() {
-
         document.getElementById('gameContainer').classList.toggle("hideMenus");
     }
 
